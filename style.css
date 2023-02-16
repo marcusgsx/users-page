@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box; /* geral */
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(285.79deg, #01466C 5.7%, #020039 50.39%, #000000 100%);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: repeat
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.logo{
+    height: 100px
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Akshar', sans-serif;
+    margin-bottom: 80px;
+    font-size: 56px;
+}
+.sessao{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 70px;
+
+}
+.usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.img{ 
+    height: 160px;
+    border-radius: 90%;
+    transition: height 0.2s, width 0.2s, transform 0.2s; 
+    transition-timing-function: ease;  
+
+}
+.img:hover{
+    height: 180px;
+}
+.nome{
+    padding: 20px;
+color: white;
+font-family: 'Akshar', sans-serif;
+}
+.gerenciamento{
+    margin-top: 30px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 70px;
+
+}
+.botao{
+    background: rgba(97, 89, 186, 0.38);
+    border-radius: 74px;
+    font-family: 'Akshar', sans-serif;
+    font-size: 24px;
+    color: white;
+    padding: 7px 30px 7px 30px;
+}
+.botao:hover{
+    background: rgba(124, 184, 228, 0.53);
+}
+.definicoes{
+    margin-top: 32px;
+    font-family: 'Akshar', sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.479);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.definicoes:hover{ color: #a3d2eb;
+}
